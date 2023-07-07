@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+    display: block;
+    min-height: 100vh;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: lighter;
+    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+#search-btn {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    border-radius: 6px;
+    margin-left: 4px;
+}
+
+#remove-btn {
+    background-color: rgb(255, 100, 100);
+    color: white;
+    border-radius: 6px;
+    margin-left: 2px;
+}
+
+#search-input {
+    border-radius: 4px;
+}
+
+.row {
+    display: flex;
+    gap: 25px;
+    margin: 40px;
+    justify-content: center;
+}
